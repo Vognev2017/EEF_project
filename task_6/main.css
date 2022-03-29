@@ -1,0 +1,71 @@
+.container{
+	display:block;
+	width:100%;
+	height:110px;
+}
+
+.container div{
+	margin:10px;
+}
+
+img{
+	width:100px;
+}
+
+.one{
+	display:block;
+	float: left;
+	width:100px;
+	overflow:hidden;
+}
+
+.one span{
+	display:block;
+	position:fixed;
+	margin-top: -1px;
+	z-index:1;
+	color:green;
+}
+
+.one a{
+	display:block;
+}
+
+.two{
+	display:block;
+	float: left;
+	background-image: url("https://srisovki.com/wp-content/uploads/2018/12/k8ki-768x672.jpg");
+	background-size: 100px;
+	background-repeat:no-repeat;
+
+}
+
+.two span{
+	display:block;
+	color:blue;
+}
+
+.two a{
+	display:block;
+	width:100px;
+	height:91px;
+	content:"";
+}
+
+.three{
+	width:100px;
+	display:block;
+	color:red;
+	position: relative;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+.three-span{
+	display:block;
+	position: absolute;
+	transform:rotate(45deg);
+    top: 40px;
+	left:5px;
+	z-index:1;
+}
