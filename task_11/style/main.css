@@ -1,0 +1,252 @@
+body {
+    background-color: #C4DEDB;
+}
+
+.container {
+    width: 1204px;
+    height: 437px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.container-header {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-link {
+    width: 10%;
+    height: 20px;
+    margin-top: 14px;
+    margin-right: 31px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.header-link i {
+    color: #335599;
+}
+
+.header-link a>span {
+    margin-left: 5px;
+}
+
+.header-link-question {
+    width: 12%;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.header-link-question a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.header-link-question a>span {
+    margin-left: 9px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.header-link-question i {
+    color: #335599;
+    transform: scale(-1, 1);
+}
+
+.container-body {
+    width: 100%;
+    height: 395px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.logo-part {
+    width: 15%;
+    height: auto;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.logo-part .logo {
+    margin-top: 19px;
+    margin-left: 53px;
+    width: 100%;
+    height: 100px;
+    background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+}
+
+.centr-part {
+    width: 57%;
+    height: auto;
+}
+
+h1 {
+    margin-left: 3px;
+    margin-top: 51px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.contacts {
+    width: 50%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.link-contacts {
+    width: 100%;
+    margin-top: -8px;
+    height: auto;
+    color: #BFBFBF;
+}
+
+.link-contacts a {
+    text-decoration: none;
+    color: #362C49;
+    margin-left: 4px;
+}
+
+.link-contacts i {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.phone-contacts {
+    width: 100%;
+    height: auto;
+    color: #BFBFBF;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.phone-contacts i {
+    transform: rotate(-45deg);
+}
+
+.phone-contacts a {
+    text-decoration: none;
+    color: #362C49;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.second-phone {
+    margin-left: -3px;
+}
+
+.description {
+    padding-top: 13px;
+    padding-left: 1px;
+}
+
+.description p {
+    display: block;
+    width: 600px;
+    height: auto;
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: 21px;
+    color: #9380A4;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.description a {
+    display: block;
+    width: 80px;
+    height: auto;
+    margin-top: 19px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: dashed;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Roboto,
+}
+
+.right-part {
+    width: 25%;
+    height: auto;
+}
+
+.right-part-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 50%;
+    height: 400;
+}
+
+.right-part span {
+    margin-left: 5px;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.right-part-items-1 {
+    margin-top: 80px;
+    width: 100%;
+    color: #8C8C8C;
+    height: auto;
+}
+
+.right-part-items-1 div {
+    margin-left: 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    line-height: 21px;
+}
+
+.right-part-items-2 {
+    margin-top: 21px;
+    width: 70%;
+    color: #8C8C8C;
+    height: auto;
+}
+
+.right-part-items-2 div {
+    margin-top: 3px;
+    margin-left: 4px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    line-height: 21px;
+}
+
+.right-part-items-3 {
+    margin-top: 24px;
+    width: 90%;
+    color: #8C8C8C;
+    height: auto;
+}
+
+.right-part-items-3 span {
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.right-part-items-3 div {
+    margin-top: -2px;
+    margin-left: 5px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    line-height: 21px;
+}
